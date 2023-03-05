@@ -15,7 +15,7 @@
 		<img class="home-content" src="img/Lakehead_1.png" alt="logo">
 
 		<div class="home-div">
-			<h2 class="home-title">Upcoming Assignments:</h2>
+			<h2 class="home-title">Upcoming Assignments</h2>
 			@foreach(var assignment in ViewData["Assignments"] as IList<Assignment>)
 			{
 				<a class="link-unstyled" asp-controller="Assignments" asp-action="Index" asp-route-id="@assignment.CourseId">
