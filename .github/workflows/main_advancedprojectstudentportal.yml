@@ -54,4 +54,4 @@ jobs:
           app-name: 'AdvancedProjectStudentPortal'
           slot-name: 'Production'
           publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_626946D1AD724A818360A069F37B6612 }}
-          package: './StudentPortalProject'
+          package: .
